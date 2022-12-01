@@ -1,5 +1,5 @@
 .box {
-  width: 200px;
+  width: 50vw;
   height: 200px;
   background-color: lightseagreen;
   border: 10px solid purple;
@@ -19,4 +19,56 @@
   background-color: lightseagreen;
   margin-top: 80px;
   /*  max-width: 700px; */
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: lightpink;
+  overflow: scroll;
+}
+
+.box3::-webkit-scrollbar {
+  display: none;
+}
+
+.pill {
+  width: 70%;
+  height: 50px;
+  margin: 10px auto;
+  border: 2px solid purple;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.pill:hover {
+  box-shadow: 10px 5px 4px 4px #a39b9b;
+}
+
+.salmon-bg {
+  background-color: salmon;
+}
+
+.image-bg {
+  background-image: url(./img/photo-1654756451106-1b8e65da7f70.avif);
+  background-size: cover;
+}
+
+.gradient-bg {
+  background-image: linear-gradient(salmon, purple);
+  word-break: break-all;
+}
+
+.semi-transparent {
+  opacity: 0.5;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  margin: 10px auto;
+  border: 2px solid purple;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
 }
